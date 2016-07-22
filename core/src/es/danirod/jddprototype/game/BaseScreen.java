@@ -16,7 +16,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package es.danirod.jumpdontdie.game;
+package es.danirod.jddprototype.game;
 
 import com.badlogic.gdx.Screen;
 

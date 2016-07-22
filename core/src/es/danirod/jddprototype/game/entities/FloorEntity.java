@@ -16,7 +16,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package es.danirod.jumpdontdie.game.entities;
+package es.danirod.jddprototype.game.entities;
 
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.Batch;
@@ -27,7 +27,7 @@ import com.badlogic.gdx.physics.box2d.PolygonShape;
 import com.badlogic.gdx.physics.box2d.World;
 import com.badlogic.gdx.scenes.scene2d.Actor;
 
-import static es.danirod.jumpdontdie.game.Constants.PIXELS_IN_METER;
+import es.danirod.jddprototype.game.Constants;
 
 /**
  * This entity represents the floor. The player and the spikes are above the floor. You cannot go
@@ -90,8 +90,8 @@ public class FloorEntity extends Actor {
         leftBox.dispose();
 
         // Now place the actor in the stage by converting the coordinates given in meters to px.
-        setSize(width * PIXELS_IN_METER, PIXELS_IN_METER);
-        setPosition(x * PIXELS_IN_METER, (y - 1) * PIXELS_IN_METER);
+        setSize(width * Constants.PIXELS_IN_METER, Constants.PIXELS_IN_METER);
+        setPosition(x * Constants.PIXELS_IN_METER, (y - 1) * Constants.PIXELS_IN_METER);
     }
 
     @Override

@@ -16,7 +16,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package es.danirod.jumpdontdie.scene2d;
+package es.danirod.jddprototype.scene2d;
 
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.GL20;
@@ -24,8 +24,8 @@ import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
 import com.badlogic.gdx.scenes.scene2d.Stage;
 import com.badlogic.gdx.utils.viewport.FitViewport;
-import es.danirod.jumpdontdie.game.BaseScreen;
-import es.danirod.jumpdontdie.game.MainGame;
+import es.danirod.jddprototype.game.BaseScreen;
+import es.danirod.jddprototype.game.MainGame;
 
 /**
  * This screen uses Scene2D to show how it works.
@@ -39,7 +39,7 @@ public class Scene2DScreen extends BaseScreen {
     private PlayerActor player;
 
     /** The actor that represent spikes. */
-    private SpikeActor spikes;
+    private es.danirod.jddprototype.scene2d.SpikeActor spikes;
 
     /** Textures used in this screen. */
     private Texture playerTexture, spikeTexture;
@@ -63,7 +63,7 @@ public class Scene2DScreen extends BaseScreen {
 
         // Load the actors.
         player = new PlayerActor(playerTexture);
-        spikes = new SpikeActor(spikeRegion, 2100, 100, 500);
+        spikes = new es.danirod.jddprototype.scene2d.SpikeActor(spikeRegion, 2100, 100, 500);
         player.setPosition(20, 100);
 
         // Add the actors to the screen. They won't be visible if you don't add them.

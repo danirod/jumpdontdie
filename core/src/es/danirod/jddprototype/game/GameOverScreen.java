@@ -16,7 +16,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package es.danirod.jumpdontdie.game;
+package es.danirod.jddprototype.game;
 
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.GL20;
@@ -47,7 +47,7 @@ public class GameOverScreen extends BaseScreen {
     /** The buttons for retrying or for going back to menu. */
     private TextButton retry, menu;
 
-    public GameOverScreen(final MainGame game) {
+    public GameOverScreen(final es.danirod.jddprototype.game.MainGame game) {
         super(game);
 
         // Create a new stage, as usual.

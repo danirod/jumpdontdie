@@ -16,7 +16,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package es.danirod.jumpdontdie.game;
+package es.danirod.jddprototype.game;
 
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.GL20;
@@ -42,7 +42,7 @@ public class LoadingScreen extends BaseScreen {
     /** This is the label that we use to display some text on the screen. */
     private Label loading;
 
-    public LoadingScreen(MainGame game) {
+    public LoadingScreen(es.danirod.jddprototype.game.MainGame game) {
         super(game);
 
         // Set up the stage and the skin. See GameOverScreen for more comments on this.

@@ -16,7 +16,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package es.danirod.jumpdontdie.game;
+package es.danirod.jddprototype.game;
 
 import com.badlogic.gdx.Game;
 import com.badlogic.gdx.assets.AssetManager;
@@ -68,7 +68,7 @@ public class MainGame extends Game {
      * screen now that everything is loaded.
      */
     public void finishLoading() {
-        menuScreen = new MenuScreen(this);
+        menuScreen = new es.danirod.jddprototype.game.MenuScreen(this);
         gameScreen = new GameScreen(this);
         gameOverScreen = new GameOverScreen(this);
         creditsScreen = new CreditsScreen(this);

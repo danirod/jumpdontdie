@@ -16,7 +16,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package es.danirod.jumpdontdie.game;
+package es.danirod.jddprototype.game;
 
 /**
  * Some class for defining constant values used in the game, so that they can be changed from

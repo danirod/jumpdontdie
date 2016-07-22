@@ -16,7 +16,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package es.danirod.jumpdontdie.game.entities;
+package es.danirod.jddprototype.game.entities;
 
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.Batch;
@@ -28,7 +28,7 @@ import com.badlogic.gdx.physics.box2d.PolygonShape;
 import com.badlogic.gdx.physics.box2d.World;
 import com.badlogic.gdx.scenes.scene2d.Actor;
 
-import static es.danirod.jumpdontdie.game.Constants.PIXELS_IN_METER;
+import es.danirod.jddprototype.game.Constants;
 
 /**
  * This is the actor that will make you lose if you touch it. Spikes are on the screen and you
@@ -78,8 +78,8 @@ public class SpikeEntity extends Actor {
         box.dispose();                              // (7) Destroy the shape when you don't need it.
 
         // Position the actor in the screen by converting the meters to pixels.
-        setPosition((x - 0.5f) * PIXELS_IN_METER, y * PIXELS_IN_METER);
-        setSize(PIXELS_IN_METER, PIXELS_IN_METER);
+        setPosition((x - 0.5f) * Constants.PIXELS_IN_METER, y * Constants.PIXELS_IN_METER);
+        setSize(Constants.PIXELS_IN_METER, Constants.PIXELS_IN_METER);
     }
 
     @Override

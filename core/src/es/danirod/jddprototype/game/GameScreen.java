@@ -16,7 +16,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package es.danirod.jumpdontdie.game;
+package es.danirod.jddprototype.game;
 
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.audio.Music;
@@ -32,10 +32,11 @@ import com.badlogic.gdx.physics.box2d.World;
 import com.badlogic.gdx.scenes.scene2d.Stage;
 import com.badlogic.gdx.scenes.scene2d.actions.Actions;
 import com.badlogic.gdx.utils.viewport.FitViewport;
-import es.danirod.jumpdontdie.game.entities.EntityFactory;
-import es.danirod.jumpdontdie.game.entities.FloorEntity;
-import es.danirod.jumpdontdie.game.entities.PlayerEntity;
-import es.danirod.jumpdontdie.game.entities.SpikeEntity;
+
+import es.danirod.jddprototype.game.entities.EntityFactory;
+import es.danirod.jddprototype.game.entities.FloorEntity;
+import es.danirod.jddprototype.game.entities.PlayerEntity;
+import es.danirod.jddprototype.game.entities.SpikeEntity;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -77,7 +78,7 @@ public class GameScreen extends BaseScreen {
      * it is safe to do critical code here such as loading assets and setting up the stage.
      * @param game
      */
-    public GameScreen(MainGame game) {
+    public GameScreen(es.danirod.jddprototype.game.MainGame game) {
         super(game);
 
         // Create a new Scene2D stage for displaying things.

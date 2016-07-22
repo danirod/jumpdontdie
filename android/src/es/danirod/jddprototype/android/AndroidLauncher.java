@@ -16,13 +16,13 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package es.danirod.jumpdontdie.android;
+package es.danirod.jddprototype.android;
 
 import android.os.Bundle;
 
 import com.badlogic.gdx.backends.android.AndroidApplication;
 import com.badlogic.gdx.backends.android.AndroidApplicationConfiguration;
-import es.danirod.jumpdontdie.game.MainGame;
+import es.danirod.jddprototype.game.MainGame;
 
 /**
  * This is the launcher that you use on Android devices.
