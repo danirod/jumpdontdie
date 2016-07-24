@@ -60,8 +60,8 @@ public class CreditsScreen extends BaseScreen {
         // file.
         back = new TextButton("Back", skin);
 
-        credits = new Label("Jump Don't Die v1.0.1\n" +
-                "Copyright (C) 2015 Dani Rodriguez\n" +
+        credits = new Label("Jump Don't Die v1.0.2\n" +
+                "Copyright (C) 2015-2016 Dani Rodriguez\n" +
                 "This game is GNU GPL. Get the code at github.com/danirod/JumpDontDie\n\n" +
 
                 "Music: \"Long Time Coming\" Kevin MacLeod (incompetech.com)\n" +
