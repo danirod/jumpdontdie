@@ -11,6 +11,7 @@ android {
             assets.srcDirs = ['assets']
             jniLibs.srcDirs = ['libs']
         }
+        //improved by cinnamon17
 
     }
     packagingOptions {
