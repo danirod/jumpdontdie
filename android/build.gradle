@@ -18,11 +18,11 @@ android {
         exclude 'META-INF/robovm/ios/robovm.xml'
     }
     defaultConfig {
-        applicationId "com.jumpersuper"
+        applicationId "es.danirod.jddprototype.android"
         minSdkVersion 14
         targetSdkVersion 29
-        versionCode 1
-        versionName "1.0"
+        versionCode 10003
+        versionName "1.0.3"
     }
     buildTypes {
         release {
