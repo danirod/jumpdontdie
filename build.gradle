@@ -19,7 +19,7 @@ allprojects {
     version = '1.0'
     ext {
         appName = 'Jump Don\'t Die'
-        gdxVersion = '1.9.11'
+        gdxVersion = '1.9.12'
         roboVMVersion = '2.3.7'
         box2DLightsVersion = '1.4'
         ashleyVersion = '1.7.0'
