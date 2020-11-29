@@ -1,0 +1,16 @@
+name: Android
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Build
+        run: ./gradlew android:assembleDebug
+      - name: Publish
+        uses: actions/upload-artifact@v2
+        with:
+          name: Android APK
+          path: android/build/outputs/apk/debug/android-debug.apk

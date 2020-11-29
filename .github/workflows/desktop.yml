@@ -1,0 +1,16 @@
+name: Desktop
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Build
+        run: ./gradlew desktop:build
+      - name: Publish
+        uses: actions/upload-artifact@v2
+        with:
+          name: Desktop JAR
+          path: desktop/build/libs/desktop-1.0.jar
