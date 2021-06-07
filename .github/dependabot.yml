@@ -7,21 +7,3 @@ updates:
     day: saturday
     time: "06:00"
   open-pull-requests-limit: 99
-  assignees:
-  - danirod
-  ignore:
-  - dependency-name: com.badlogicgames.gdx:gdx
-    versions:
-    - 1.9.13
-  - dependency-name: com.badlogicgames.gdx:gdx-freetype
-    versions:
-    - 1.9.13
-  - dependency-name: com.badlogicgames.gdx:gdx-box2d
-    versions:
-    - 1.9.13
-  - dependency-name: com.badlogicgames.gdx:gdx-backend-android
-    versions:
-    - 1.9.13
-  - dependency-name: com.badlogicgames.gdx:gdx-backend-lwjgl
-    versions:
-    - 1.9.13
